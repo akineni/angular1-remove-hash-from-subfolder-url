@@ -1,0 +1,19 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8" />
+    <title>List</title>
+    <base href="/app/"><!-- Make sure the base is above your stylesheet -->
+    <meta name="fragment" content="!" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+    <ng-view></ng-view>
+    
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular/angular-route.min.js"></script>
+    <script src="js/controllers/ListController.js"></script>
+    <script src="js/controllers/EditController.js"></script>
+</body>
+</html>
