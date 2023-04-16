@@ -1,0 +1,1 @@
+# angular1-remove-hash-from-subfolder-url
